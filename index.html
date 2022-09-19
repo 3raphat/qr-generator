@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+  <div class="wrapper" id="box">
+    <div class="heading">
+      <div class="title">QR Code Generator</div>
+      <div class="sub-title">Create your QR Code for free</div>
+    </div>
+    <div class="user-input">
+      <input type="text" class="input-text" id="input-text" placeholder="Enter your URL or text here" autocomplete="off">
+      <div class="size-container">
+        <label>Size</label>
+        <select id="size">
+          <option value="100">100x100</option>
+          <option value="300" selected>300x300</option>
+          <option value="500">500x500</option>
+        </select>
+      </div>
+      <div class="format-container">
+        <label>Download Format</label>
+        <select id="format">
+          <option value="png" selected>PNG</option>
+          <option value="jpg">JPG</option>
+          <option value="gif">GIF</option>
+        </select>
+      </div>
+      <button type="submit" class="button">Generate</button>
+    </div>
+  </div>
+  <div class="qr-code" id="box" style="display: none; width: 100px;"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
