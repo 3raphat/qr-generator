@@ -56,7 +56,7 @@ button {
   border: none;
 }
 
-.user-input button:hover {
+.user-input button:active {
   background-color: #c5c5c5;
 }
 
@@ -78,7 +78,7 @@ button {
   background-color: #f08080;
 }
 
-.qr-code a:hover {
+.qr-code a:active {
   background-color: #ec5b5b;
 }
 
