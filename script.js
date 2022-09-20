@@ -14,7 +14,6 @@ btn.addEventListener("click", () => {
       generate(text, size, format);
     }
   } else {
-    alert("Please enter a valid input");
     qr_code_element.style = "display: none";
   }
 });
