@@ -5,10 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QR Code Generator</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
+  <nav>
+    <a href="/index.html" class="nav-link">Generate</a>
+    <a href="/read.html" class="nav-link">Read</a>
+  </nav>
   <div class="wrapper" id="box">
     <div class="heading">
       <div class="title">QR Code Generator</div>
@@ -38,6 +43,6 @@
   <div class="qr-code" id="box" style="display: none;"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script src="script.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 </html>

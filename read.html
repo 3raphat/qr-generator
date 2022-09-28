@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Reader</title>
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/read.css">
+</head>
+<body>
+  <nav>
+    <a href="/index.html" class="nav-link">Generate</a>
+    <a href="/read.html" class="nav-link">Read</a>
+  </nav>
+  <div class="wrapper" id="box">
+    <form>
+      <div class="heading">
+        <div class="title">QR Code Reader</div>
+        <div class="sub-title">Upload QR Code to scan</div>
+      </div>
+      <div class="user-input">
+        <img src="">
+        <input type="file" class="input" id="input">
+      </div>
+    </form>
+  </div>
+  <div class="qr-content" id="box" style="display: none;">
+    <textarea disabled></textarea>
+  </div>
+
+  <script src="./js/read.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.wrapper {
+  border-radius: 0.75rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-bottom: 0;
+  gap: 1rem;
+  text-align: left;
+}
+
+label {
+  font-size: 0.75rem;
+}
+
+input,
+select,
+button, a.btn {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.user-input button:active {
+  background-color: #c5c5c5;
+}
+
+.qr-code {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-left: 2rem;
+  border-radius: 0.75rem;
+  padding: 2rem;
+}
+
+.qr-code img {
+  margin-bottom: 2rem;
+}
+
+.qr-code a {
+  color: #fff;
+  background-color: #f08080;
+}
+
+.qr-code a:active {
+  background-color: #ec5b5b;
+}
+
+i {
+  margin-left: 0.25rem;
+}
+
+#box {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
