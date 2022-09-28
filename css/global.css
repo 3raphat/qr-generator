@@ -28,7 +28,13 @@ nav {
   justify-content: center;
 }
 
+nav .nav-link {
+  color: #cdb4db;
+  transition: all 0.2s ease;
+}
+
 nav .nav-link:hover {
+  color: #ff5d8f;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
